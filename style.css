@@ -1,23 +1,7 @@
-:root {
-    --primary-color: #2c3e50;
-    --text-color: #f1b5b5;
-    --text-color-2: #f26f6a ;
-    --light-gray: #ecf0f1;
-    --white: #fff;
-    --padding: 1.5rem;
-}
-/* 2c3e50 */
-body {
-    font-family: 'montserrat', sans-serif;
-    color: var(--text-color);
-    padding: var(--padding-lg);
-    background-color: var(--light-gray);
-    background-color: #ffffff;
+body{
+  font-family: "Martel sans" , sans-serif;
 }
 
-.chan{ 
-  width: 2fr;
-  justify-content: start;
-  align-content: start;
-  border-radius: 1rem;
+h1{
+  font-family: "lilita one" , sans-serif;
 }
