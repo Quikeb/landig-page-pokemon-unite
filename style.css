@@ -6,13 +6,13 @@
     --white: #fff;
     --padding: 1.5rem;
 }
-
+/* 2c3e50 */
 body {
     font-family: 'montserrat', sans-serif;
     color: var(--text-color);
     padding: var(--padding-lg);
     background-color: var(--light-gray);
-    background-color: #20232c;
+    background-color: #ffffff;
 }
 
 .chan{ 
