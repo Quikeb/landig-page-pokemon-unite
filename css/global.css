@@ -1,0 +1,28 @@
+/* 
+  Estilos Glovales
+
+  Aqio definimos estilos y variables que se reutiliuzan en todo el sitio.
+*/
+:root{
+  --primary-color: #A8BE43;
+  --Secundary-color: #C03CE6;
+  --Dark-color: #13132F;
+  --light-color: #F0F0F0;
+
+  --font-primary: "Material sans", sans-serif;
+  --font-secondary: "lilita one", sans-serif;
+}
+
+body{
+  font-family: var(--font-primary);
+  background-color: var(--light-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-secondary);
+}
