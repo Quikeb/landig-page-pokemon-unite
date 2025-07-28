@@ -19,7 +19,7 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--space-small);
+  padding: var(--space-normal);
 }
 
 .navbar-menu{
@@ -28,17 +28,18 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
 
 }
 .navbar-menu a {
-  font-family: var(--fofont-secondaryn);
+  font-family: var(--font-secondary);
   text-transform: uppercase;
 
 }
 
-.navbar-menu a hover{
+.navbar-menu a:hover{
   color: var(--Secundary-color);
   
 }
 
 /* hero */
+
 
 .hero{
   height: 100vh;
@@ -75,4 +76,55 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
 .hero-icons{
   display: flex;
   gap: var(--space-small);
+}
+
+.characters {background-color: wheat;
+  
+}
+.characters-header {
+  margin-bottom: 1rem;
+}
+.characters-content {
+  display: flex;
+}
+.characters-thumbnails{
+  width: 50%;
+}
+
+.thumbnail-item{
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  filter: brightness(0.6);
+}
+
+.thumbnails-item:hover {
+  filter: brightness(1);
+}
+
+
+
+
+.characters-showcase{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-medium);
+}
+.thumbnails-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-medium);
+}
+
+
+
+.character-info{
+  margin-bottom: center;
+}
+
+
+.wrapper{ 
+
 }

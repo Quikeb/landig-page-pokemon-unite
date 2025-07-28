@@ -30,8 +30,18 @@ h4,
 h5,
 h6 {
   font-family: var(--font-secondary);
+  color: var(--Dark-color);
+  text-transform: uppercase;
+}
+h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
+h3{
+  font-size: 1.75rem;
+  margin-bottom: 0.8rem;
+}
 
 .Button-primary{
   display: flex;
@@ -71,4 +81,11 @@ h6 {
 .Button-secondary :hover {
   color: var(--Dark-color);
   background-color: var(--primary-color);
+}
+
+/* wrapper */
+.wrapper{
+
+  max-width: 1200px;
+  margin: 0;
 }
