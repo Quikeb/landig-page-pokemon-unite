@@ -20,6 +20,8 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
   justify-content: space-between;
   align-items: center;
   padding: var(--space-normal);
+  background-color: var(--dark-color-transparent);
+  backdrop-filter: blur(10px);
 }
 
 .navbar-menu{
@@ -166,7 +168,7 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
   transition: filtler:0.3 ease;
 }
 
-.carousel-item:hober img {
+.carousel-item:hover img {
 filter: brightness(1);
 }
 

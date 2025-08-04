@@ -12,6 +12,8 @@
   --font-primary: "Material sans", sans-serif;
   --font-secondary: "lilita one", sans-serif;
 
+  --Dark-color-transparent: #13132f6d;
+
   --space-small : 16px;
   --space-normal: 24px;
   --space-medium: 32px;
@@ -43,6 +45,15 @@ h3{
   font-size: 1.75rem;
   margin-bottom: 0.8rem;
 }
+
+button {
+  cursor: pointer;
+}
+
+section{
+  margin-bottom: var(--space-medium);
+}
+
 
 .Button-primary{
   display: flex;
