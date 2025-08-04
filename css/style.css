@@ -30,6 +30,7 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
 .navbar-menu a {
   font-family: var(--font-secondary);
   text-transform: uppercase;
+  color: var(--light-color);
 
 }
 
@@ -67,7 +68,7 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
 
 }
 
-.hero-action {
+.hero-actions {
   display: flex;
   gap: var(--space-small);
   margin-bottom: var(--space-medium);
@@ -78,14 +79,17 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
   gap: var(--space-small);
 }
 
-.characters {background-color: wheat;
-  
+/* characters */
+
+.characters {
+  background-color: var(--light-color);
 }
 .characters-header {
   margin-bottom: 1rem;
 }
 .characters-content {
   display: flex;
+  align-items: center;
 }
 .characters-thumbnails{
   width: 50%;
@@ -96,11 +100,13 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
   overflow: hidden;
   cursor: pointer;
   filter: brightness(0.6);
+  transition: filter 0.3s ease;
 }
 
 .thumbnails-item:hover {
   filter: brightness(1);
 }
+
 
 
 
@@ -125,10 +131,6 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
 }
 
 
-.wrapper{ 
-
-}
-
 /* media */
 
 .media-header{
@@ -151,11 +153,21 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
 
 .carousel-item {
   position: relative;
+  cursor: pointer;
+  border-radius: 1rem;
+  overflow: hidden;
+
 }
 
 .carousel-item img {
   width: 100%;
   height: auto;
+  filter: brightness(0.6);
+  transition: filtler:0.3 ease;
+}
+
+.carousel-item:hober img {
+filter: brightness(1);
 }
 
 .carousel-item span {
@@ -166,6 +178,12 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
   font-size: 3rem;
   color: var(--dark-color);
 }
+
+.carousel-item:hover span {
+  color: var(--primary-color);
+}
+
+
 .carousel-controls{
   display: flex;
   justify-content: center;
@@ -173,6 +191,11 @@ Aqui vamos a estilizar las secciones, sus contenidos y el responsivo
 .carousel-controls button {
   color: var(--dark-color);
 }
+
+.carousel-controls button:hover {
+  color: var(--Secundary-color);
+}
+
 .carousel-controls span {
   font-size: 3rem;
 }
