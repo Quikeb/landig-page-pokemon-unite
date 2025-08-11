@@ -57,6 +57,9 @@ h3{
   font-size: 1.75rem;
   margin-bottom: 0.8rem;
 }
+p {
+ line-height: 1.50rem; 
+}
 
 button {
   cursor: pointer;
