@@ -215,9 +215,9 @@ filter: brightness(1);
   background:
   /* Capas */
   /* Layer 1 */
-    linear-gradient(90deg,rgba(112, 210, 226, 0.75) 0%, rgba(247, 174, 237, 0.28) 100%); 
+    linear-gradient(90deg,rgba(39, 10, 170, 0.479) 0%, rgba(141, 175, 226, 0.144) 100%); 
     /* Layer 2 */
-    url("../assets/imagenes/sanrio-amigos.png") center content no-repear;
+    url("../assets/image/fondo.png") center content no-repear;
 
   background-size: cover;
 }
